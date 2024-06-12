@@ -1,0 +1,114 @@
+@import url('https://fonts.cdnfonts.com/css/bunya-personal');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+                                                
+}
+
+
+body{
+    background-color: bisque;
+}
+
+h1{
+    margin-top: 150px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    
+}
+.blank{
+    width: 50px;
+}
+
+.product {
+   
+    gap: 50px;
+    background-color: white;
+    border: 6px solid #313030; /* Adds a border around the product */
+    padding: 10px;
+    text-align: center;
+    width: 250px;
+    height: 300px;
+}
+
+.product img {
+    width: 100%; /* Adjust width as necessary, or set max-width for larger viewports */
+    height: auto;
+}
+
+.price-tag {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+.price-tag span {
+    font-size: 1.2em;
+    color: black; /* Adjust the color as needed */
+}
+
+.price-tag img {
+    width: 24px; /* Set size of cart icon */
+    height: auto;
+}
+
+.navbar {
+   
+   
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    font-size: 25px;
+    background-color: #333;
+    color: white; 
+    padding: 20px 30px;
+    border-radius: 25px; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+.navbar ul li a:hover {
+    background-color: #555; 
+}
+
+.home{
+    text-align: center;
+margin-top: 40px;
+}
+
+.home a{
+    
+    font-size: 25px;
+    background-color: #333;
+    color: white; 
+    padding: 20px 30px;
+    border-radius: 25px; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
