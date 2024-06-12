@@ -19,6 +19,20 @@ h1{
     font-size: 50px;
 }
 
+.top    {
+
+   
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+
+.top img{
+    width: 200px;
+    height: auto;
+}
+
+
 .product-container {
     display: flex;
     justify-content: center;

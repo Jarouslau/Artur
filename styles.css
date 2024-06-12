@@ -17,6 +17,19 @@ h1{
     font-weight: 900;
 }
 
+.top    {
+
+   
+    justify-content: space-around;
+    display: flex;
+    text-align: center;
+}
+
+.top img{
+    width: 200px;
+    height: auto;
+}
+
 .navbar {
     text-align: center;
     padding: 20px;
