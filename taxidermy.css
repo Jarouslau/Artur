@@ -88,3 +88,20 @@ h1{
 .navbar ul li a:hover {
     background-color: #555; 
 }
+
+h3 {
+    text-align: center;
+}
+
+button {
+    height: max-content;
+    margin-top: 20px;
+    padding: 20px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #f9f9f9;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100%;
+    background-color: #333;
+}
