@@ -17,15 +17,31 @@ h1{
     font-weight: 900;
 }
 
-.cartninfo{
-text-align:center ;
+.navbar {
+    text-align: center;
+    padding: 20px;
 }
 
-.cartninfo a{
-text-decoration: none;
-background-color: black;
-color: white;
-padding:20px 50px 20px 50px ;
-font-size: 25;
-border-radius: 12px;
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    font-size: 25px;
+    background-color: #333;
+    color: white; 
+    padding: 20px 30px;
+    border-radius: 25px; 
+    text-decoration: none;
+    transition: background-color 0.3s; 
+}
+
+.navbar ul li a:hover {
+    background-color: #555; 
 }
